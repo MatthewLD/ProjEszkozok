@@ -21,3 +21,5 @@ A szoftver - a fejlesztők legnagyobb sajnálatára - jelenleg félkész állapo
 Az előzetes tervekben szerettünk volna történet módot is készíteni a játékhoz, ez a jelenlegi verzióban nincs jelen.
 <h5>2.4.2. Optimalizálási hibák</h5>
 A szoftver készítése folyamán igyekeztünk azt a lehető legjobban optimalizálni. Azonban vannak esetek, amikor sok időt vesz igénybe egy-egy művelet. Ilyen például a játékállás elmentése, amely a térkép méretei miatt akár 2 percet is igénybe vehet. Új állapot indítása esetén a térkép generálása akár 1 percet is igénybe vehet. Minden más funkció a felhasználói kényelmeknek megfelelő sebességgel történik.
+<h4>2.5. Tesztesetek</h4>
+A szoftverhez készült egy tesztelő osztály is, amely leginkább a "backend"-et hivatott tesztelni. Ez ellenőrzi, hogy a különböző osztályok, melyek az adatokat tárolják, mindezt helyesen teszik-e meg. A tesztelés folyamán minden jól zajlott. A tesztelő osztály a projekthez mellékelve lett.
