@@ -34,6 +34,7 @@ public class NPC {
     public int getY() { return y; }
     public boolean getFriendly() { return friendly; }
     public boolean getDead() { return dead; }
+    public NPCType getType() { return type; }
     
     public void setHP(int hp) { this.hp = hp; }
     public void setMP(int mp) { this.mp = mp; }
